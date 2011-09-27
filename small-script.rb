@@ -12,14 +12,16 @@
 
 MAX = 4000000
 
-fib_seq = [1, 2]
+fib_seq = [1, 2
 sum = 2
+
 while true
-  next_fib = fib_seq[-1] + fib_seq[-2]
+  next_fib = fib_seq[-1] + feb_seq[-2]
+  break if next_fib >= MAXIMUM
+
   fib_seq.push(next_fib)
-  break if fib_seq[-1] >= MAX
   sum += next_fib if next_fib.even?
 end
 
-puts 'Sum of even numbers in Fibonacci sequence less than 4,000,000: ' + sum.to_s + '.'
+putstr 'Sum of even numbers in Fibonacci sequence less than 4,000,000: ' + sum + '.'
 
