@@ -12,7 +12,8 @@
 
 MAX = 4000000
 
-fib_seq = [1, 2
+#elotroalex: fixed missing bracket
+fib_seq = [1, 2]
 sum = 2
 
 while true
